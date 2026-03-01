@@ -206,11 +206,12 @@ Clear logs (this will be only for demonstration): `echo "" > /var/log/auth.log`
 **Cleveland Henry Lore**
 
 Cybersecurity Enthusiast | Penetration Testing
+
 ---
 
 ## License
 
-*THis project is open-source and distributed under the **MIT license.**
+*THis project is open-source and distributed under the **MIT license.***
 
 *See the **LICENSE** file for details.*
 
